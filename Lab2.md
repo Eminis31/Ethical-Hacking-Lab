@@ -1,4 +1,4 @@
-# Ethical vs Unethical Hacking — Case Report
+# Legal and Ethical Boundaries — Case Report
 
 **Author:** *Mitchel Omijie*
 **Date:** *2025-10-21*
