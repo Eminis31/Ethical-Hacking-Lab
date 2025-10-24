@@ -1,45 +1,56 @@
-# WHOIS & DNS Intelligence Report
+# GitHub.com Domain Recon Summary
 
-## Overview
-
-This document provides a professional OSINT-style summary of domain registration and DNS infrastructure details for **github.com**. It is suitable for security assessments, reconnaissance documentation, and threat intelligence reporting.
-
-## Domain Summary
-
-| Category | Details |
-|
-
-## DNS & Infrastructure Analysis
-
-* **Global Load Balancing / CDN** observed via NS1 + AWS Anycast blend
-* **No DNSSEC signing** → DNS responses are not cryptographically validated
-* **Likely geo-distributed edge IPs** — IP `140.82.121.4` may vary per region
-* **High security posture** with strict domain lock statuses (clientTransfer/Update/DeleteProhibited)
+This document provides a concise summary of reconnaissance data collected using WHOIS,NSLOOKUP and DNS lookups for the domain **github.com**.
 
 ---
 
-## Source Commands
+## 📌 Domain Information
 
-```bash
-whois github.com
-nslookup github.com
-```
-
-----------|---------|
-| **Domain Name** | github.com |
-| **Registrar** | MarkMonitor Inc. (IANA ID 292) |
-| **Created On** | 2007-10-09 |
-| **Expires On** | 2026-10-09 |
-| **Updated On** | 2024-09-07 |
-| **Domain Status** | clientUpdateProhibited, clientTransferProhibited, clientDeleteProhibited |
-| **Registrant Org** | GitHub, Inc. (US) |
-| **Abuse Contact** | [abusecomplaints@markmonitor.com](mailto:abusecomplaints@markmonitor.com) — +1.208.685.1750 |
-| **Email (Registrant/Tech)** | Protected via Request Form → [https://domains.markmonitor.com/whois/github.com](https://domains.markmonitor.com/whois/github.com) |
-| **Name Servers** | dns1.p08.nsone.net, dns2.p08.nsone.net, dns3.p08.nsone.net, dns4.p08.nsone.net, ns-421.awsdns-52.com, ns-1283.awsdns-32.org, ns-1707.awsdns-21.co.uk, ns-520.awsdns-01.net |
-| **DNSSEC** | unsigned |
-| **Resolved IP (A record)** | 140.82.121.4 |
-| **Infrastructure Note** | Uses hybrid NS1 + AWS DNS (global load balancing/CDN) |
+| Item                  | Details                                                                 |
+|-----------------------|-------------------------------------------------------------------------|
+| **Domain Name**       | github.com                                                              |
+| **Registrar**         | MarkMonitor Inc. (IANA ID: 292)                                         |
+| **Registrar WHOIS**   | whois.markmonitor.com                                                   |
+| **Registrar URL**     | http://www.markmonitor.com                                              |
+| **Abuse Contact**     | abusecomplaints@markmonitor.com · +1.2086851750                        |
+| **Created On**        | 2007-10-09                                                              |
+| **Updated On**        | 2024-09-07                                                              |
+| **Expiry Date**       | 2026-10-09                                                              |
+| **Domain Status**     | clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited |
+| **DNSSEC**            | unsigned                                                                |
 
 ---
 
-Generated from `whois` and `nslookup` queries.
+## 🌐 Name Servers
+
+| Name Servers |
+|--------------|
+| DNS1.P08.NSONE.NET |
+| DNS2.P08.NSONE.NET |
+| DNS3.P08.NSONE.NET |
+| DNS4.P08.NSONE.NET |
+| NS-1283.AWSDNS-32.ORG |
+| NS-1707.AWSDNS-21.CO.UK |
+| NS-421.AWSDNS-52.COM |
+| NS-520.AWSDNS-01.NET |
+
+---
+
+## 🧭 DNS Resolution
+
+| Query Type | Result |
+|------------|--------|
+| **A Record** | 140.82.121.3 (resolved via nslookup) |
+
+---
+
+## ✅ Notes
+
+- WHOIS data confirms the domain is **actively maintained** and protected (transfer/update/delete prohibited).
+- DNS is handled by **NS1 and AWS Route53** infrastructure.
+- No DNSSEC signing is currently enabled (**unsigned**).
+
+---
+
+*This README is generated from `whois` and `nslookup` queries.
+.*
