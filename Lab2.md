@@ -31,6 +31,6 @@ Distinguish between ethical and unethical hacking scenarios based on authorizati
 
 ## Conclusion
 Ethical hacking is authorized, documented, and focused on strengthening security.  
-Unauthorized access — regardless of intent — is illegal and classified as cybercrime under most legal frameworks.
+Unethical hacking — regardless of intent — is illegal and classified as cybercrime under most legal frameworks.
 
 ---
