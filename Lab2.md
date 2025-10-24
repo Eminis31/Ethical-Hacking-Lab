@@ -6,52 +6,33 @@
 
 ---
 
-## Executive Summary
-
-This report analyzes three hacking scenarios to determine whether each case is **ethical** (authorized, legal, defensive) or **unethical** (unauthorized, illegal, malicious). The evaluation is based on **intent**, **permission**, and **impact**.
-
----
-
-## Quick Summary Table
-
-| Case | Scenario                           | Verdict               |
-| ---- | ---------------------------------- | --------------------- |
-| 1    | Bank penetration test (authorized) | ✅ Ethical & Legal     |
-| 2    | Hospital ransomware                | ❌ Illegal & Unethical |
-| 3    | Bug bounty responsible disclosure  | ✅ Ethical & Legal     |
-
----
+# Legal and Ethical Boundaries
 
 ## Objective
-
 Distinguish between ethical and unethical hacking scenarios based on authorization and intent.
 
+---
 ## Case Analysis
+## Case Study 1 – *[Tesla Bug Bounty Program]*
+**Classification:** Ethical (Authorized)  
+**Justification:** The security assessment was conducted with explicit permission from the system owner. The findings were reported responsibly to help improve security.
 
-### Case 1 — Authorized Penetration Test
+---
 
-A cybersecurity firm was contracted by a bank to perform a penetration test and identify vulnerabilities in its online banking portal. The engagement was defined by a legal scope-of-work agreement.
+## Case Study 2 – *[WannaCry Ransomware Attack (2017)]*
+**Classification:** Unethical / Illegal (Unauthorized)  
+**Justification:** The system was accessed without consent, violating privacy and cybercrime laws. The actions were not approved and had potential malicious intent.
 
-**Verdict:** ✅ Ethical & Legal
-**Justification:** Explicit permission was granted and the purpose was defensive — to improve security.
+---
 
-### Case 2 — Ransomware Attack on a Hospital
-
-A threat actor exploited an unpatched VPN service to deploy ransomware, encrypt patient records, and demand payment for decryption. This attack disrupted critical healthcare services.
-
-**Verdict:** ❌ Illegal & Unethical
-**Justification:** No authorization or consent, malicious intent, caused operational and safety harm.
-
-### Case 3 — Bug Bounty Disclosure
-
-A security researcher discovered an exposed API in an e-commerce platform and reported it via the official bug bounty program. The company acknowledged and rewarded the researcher.
-
-**Verdict:** ✅ Ethical & Legal
-**Justification:** Conducted within legal disclosure program boundaries, with no exploitation or damage.
+## Case Study 3 – *[Google Project Zero Vulnerability Disclosure]*
+**Classification:** *Ethical or Unethical* (based on scenario)  
+**Justification:** Clearly state whether permission was granted and if the intent was to protect or exploit the system.
 
 ---
 
 ## Conclusion
+Ethical hacking is authorized, documented, and focused on strengthening security.  
+Unauthorized access — regardless of intent — is illegal and classified as cybercrime under most legal frameworks.
 
-Ethical hacking is always **authorized** and aims to **protect systems**, while unethical hacking involves **unauthorized access** with **malicious or harmful intent**.
-
+---
