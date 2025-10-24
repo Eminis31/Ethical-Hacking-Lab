@@ -1,4 +1,4 @@
-# GitHub.com WHOIS & DNS Intelligence Report
+# WHOIS & DNS Intelligence Report
 
 ## Overview
 
