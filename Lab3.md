@@ -1,4 +1,4 @@
-# Domain Recon Summary
+# Domain Reconnaissance (Passive) Summary
 
 This document provides a concise summary of reconnaissance data collected using WHOIS,NSLOOKUP and DNS lookups for the domain **github.com**.
 
