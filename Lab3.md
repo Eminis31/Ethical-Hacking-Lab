@@ -1,6 +1,6 @@
 # Domain Reconnaissance (Passive) Summary
 
-This document provides a concise summary of reconnaissance data collected using WHOIS,NSLOOKUP and DNS lookups for the domain **github.com**.
+This document provides a concise summary of reconnaissance data collected using WHOIS and DNS lookups for the domain **github.com**.
 
 ---
 
@@ -21,7 +21,7 @@ This document provides a concise summary of reconnaissance data collected using 
 
 ---
 
-## 🌐 Name Servers
+## 🌐 Name of Servers
 
 | Name Servers |
 |--------------|
@@ -52,5 +52,11 @@ This document provides a concise summary of reconnaissance data collected using 
 
 ---
 
+
 *This README is generated from `whois` and `nslookup` queries.
 .*
+Generated using whois
+<img width="742" height="424" alt="whois" src="https://github.com/user-attachments/assets/42d371b8-9bf9-457e-9046-42b35ea754aa" />
+
+Generated using nslookup
+<img width="337" height="125" alt="nslookup" src="https://github.com/user-attachments/assets/1fd2eb15-ba6d-4fff-8d8b-90b7fe4a9970" />
