@@ -6,8 +6,6 @@
 
 ---
 
-# Legal and Ethical Boundaries
-
 ## Objective
 Distinguish between ethical and unethical hacking scenarios based on authorization and intent.
 
