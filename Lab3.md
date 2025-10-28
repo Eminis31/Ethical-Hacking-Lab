@@ -54,9 +54,8 @@ This document provides a concise summary of reconnaissance data collected using 
 
 
 *This README is generated from `whois` and `nslookup` queries.
-.
+.*
 
-*
 Generated using whois
 
 
