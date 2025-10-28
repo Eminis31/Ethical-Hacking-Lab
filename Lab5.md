@@ -1,4 +1,4 @@
-# Passive vs Active Reconnaissance
+# Comparing Passive vs Active Reconnaissance
 
 This section provides a clear comparison between passive and active reconnaissance techniques used during cybersecurity assessments or penetration testing.
 
