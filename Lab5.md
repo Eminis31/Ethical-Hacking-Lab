@@ -23,4 +23,4 @@ Passive reconnaissance is ideal for the *initial information-gathering phase* wh
 
 ---
 
-*This document is part of a cybersecurity recon methodology overview.*
+
