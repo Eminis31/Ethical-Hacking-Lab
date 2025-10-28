@@ -58,6 +58,8 @@ This document provides a concise summary of reconnaissance data collected using 
 
 *
 Generated using whois
+
+
 <img width="742" height="424" alt="whois" src="https://github.com/user-attachments/assets/42d371b8-9bf9-457e-9046-42b35ea754aa" />
 
 Generated using nslookup
